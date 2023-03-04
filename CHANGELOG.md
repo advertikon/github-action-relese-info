@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/advertikon/github-action-relese-info/compare/v1.0.9...v1.0.10) (2023-03-04)
+
+
+### Bug Fixes
+
+* switch to own Slack action sender ([8c76e7b](https://github.com/advertikon/github-action-relese-info/commit/8c76e7b7ff025f41d55cdd6200c6294e6b41b4f6))
+
 ## [1.0.9](https://github.com/advertikon/github-action-relese-info/compare/v1.0.8...v1.0.9) (2023-03-04)
 
 
