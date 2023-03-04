@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/advertikon/github-action-relese-info/compare/v1.0.10...v1.0.11) (2023-03-04)
+
+
+### Bug Fixes
+
+* fix slack action inputs ([b7c7c46](https://github.com/advertikon/github-action-relese-info/commit/b7c7c468d04c77301c3124ef4fde565175d9d6a8))
+
 ## [1.0.10](https://github.com/advertikon/github-action-relese-info/compare/v1.0.9...v1.0.10) (2023-03-04)
 
 
