@@ -6,7 +6,7 @@ try {
     const payload = JSON.stringify(context.payload, undefined, 2)
     console.log(`The event payload: ${payload}`);
     const octokit = getOctokit(token)
-    const owner = context.payload.repository.owner;
+    const owner = context.payload.repository.owner.name;
     const repo = context.payload.repository.name;
     console.log(`Fetching info for '${owner}/${repo}'`);
 
