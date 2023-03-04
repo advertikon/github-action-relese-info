@@ -19,11 +19,15 @@
   },
   "homepage": "https://github.com/advertikon/github-action-relese-info#readme",
   "devDependencies": {
-    "semantic-release": "^20.1.1",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.4",
-    "@semantic-release/release-notes-generator": "^10.0.3"
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "semantic-release": "^20.1.1"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
   }
 }
