@@ -10,13 +10,15 @@ try {
     const repo = github.context.payload.repository.name;
     console.log(`Fetching info for '${owner}/${repo}'`);
 
-    await octokit.request(`GET /repos/${owner}/${repo}/releases`, {
+    const info = await octokit.request(`GET /repos/${owner}/${repo}/releases`, {
         owner,
         repo,
         headers: {
             'X-GitHub-Api-Version': '2022-11-28'
         }
-    })
+    });
+
+    console.log('Info: ', JSON.stringify(info, null, 2));
 
     // core.setOutput("time", time);
 } catch (error) {
