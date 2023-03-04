@@ -2,6 +2,7 @@
   "name": "github-action-relese-info",
   "version": "1.0.0",
   "description": "Github action to fetch release info",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
