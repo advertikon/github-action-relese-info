@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/advertikon/github-action-relese-info/compare/v1.1.0...v1.1.1) (2023-03-04)
+
+
+### Bug Fixes
+
+* use js bundle ([b18f4c1](https://github.com/advertikon/github-action-relese-info/commit/b18f4c10fdc6f5220bacf45fd9b0301210b8186f))
+
 # [1.1.0](https://github.com/advertikon/github-action-relese-info/compare/v1.0.11...v1.1.0) (2023-03-04)
 
 
