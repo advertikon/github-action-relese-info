@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/advertikon/github-action-relese-info/compare/v1.0.11...v1.1.0) (2023-03-04)
+
+
+### Features
+
+* add slack message version ([caa5ceb](https://github.com/advertikon/github-action-relese-info/commit/caa5ceb9fed59544c15bba6c0144a33cad7a7d34))
+
 ## [1.0.11](https://github.com/advertikon/github-action-relese-info/compare/v1.0.10...v1.0.11) (2023-03-04)
 
 
