@@ -41,5 +41,5 @@ jobs:
         id: slack
         uses: advertikon/github-action-slack-message@main
         with:
-          chanel-url: ${{ secrets.SLACK_WEBHOOK_URL }}
+          channel-url: ${{ secrets.SLACK_WEBHOOK_URL }}
           status: ${{ job.status }}
