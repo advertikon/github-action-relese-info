@@ -1,5 +1,5 @@
 {
-    "branches": ["master"],
+    "branches": ["master", "main"],
     "repositoryUrl": "https://github.com/advertikon/github-action-relese-info",
     "plugins": [
       "@semantic-release/commit-analyzer",
