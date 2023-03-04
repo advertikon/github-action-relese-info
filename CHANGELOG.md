@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/advertikon/github-action-relese-info/compare/v1.0.6...v1.0.7) (2023-03-04)
+
+
+### Bug Fixes
+
+* fix repo owner name ([9c1a708](https://github.com/advertikon/github-action-relese-info/commit/9c1a7080e7427ff45928fef8383a3cfd9611390b))
+
 ## [1.0.6](https://github.com/advertikon/github-action-relese-info/compare/v1.0.5...v1.0.6) (2023-03-04)
 
 
