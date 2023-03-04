@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/advertikon/github-action-relese-info/compare/v1.0.4...v1.0.5) (2023-03-04)
+
+
+### Bug Fixes
+
+* set as module ([64755e1](https://github.com/advertikon/github-action-relese-info/commit/64755e16db46c39146965a50729669fdd60288eb))
+
 ## [1.0.4](https://github.com/advertikon/github-action-relese-info/compare/v1.0.3...v1.0.4) (2023-03-04)
 
 
