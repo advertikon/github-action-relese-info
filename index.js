@@ -19,9 +19,9 @@ try {
     });
 
     if (info.status === 200) {
-        setOutput('tag', info.tag_name);
-        setOutput('body', info.body);
-        setOutput('author', info.author.login);
+        // setOutput('tag', info.tag_name);
+        // setOutput('body', info.body);
+        // setOutput('author', info.author.login);
         console.log('Info: ', JSON.stringify(info, null, 2));
 
     } else {
