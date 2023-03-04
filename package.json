@@ -12,7 +12,7 @@
     "url": "git+https://github.com/advertikon/github-action-relese-info.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Maxim Bogochunas <bogochunas@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/advertikon/github-action-relese-info/issues"
