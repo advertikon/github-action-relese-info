@@ -36,6 +36,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
 
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@main
+
+      - name: print
+        run: echo ${{ steps.package-version.outputs.current-version }}
+
       - name: Slack Notification
         if: ${{ always() }}
         id: slack
@@ -43,3 +50,4 @@ jobs:
         with:
           channel-url: ${{ secrets.SLACK_WEBHOOK_URL }}
           status: ${{ job.status }}
+          version: ${{ steps.package-version.outputs.current-version }}
