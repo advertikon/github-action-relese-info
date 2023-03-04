@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/advertikon/github-action-relese-info/compare/v1.0.1...v1.0.2) (2023-03-04)
+
+
+### Bug Fixes
+
+* add mode modules ([d97bddd](https://github.com/advertikon/github-action-relese-info/commit/d97bdddd44fc1218ce3912c59ba4fc131df3cbd5))
+
 ## [1.0.1](https://github.com/advertikon/github-action-relese-info/compare/v1.0.0...v1.0.1) (2023-03-04)
 
 
