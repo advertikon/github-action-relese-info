@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/advertikon/github-action-relese-info/compare/v1.0.7...v1.0.8) (2023-03-04)
+
+
+### Bug Fixes
+
+* fetch only the last release ([e27ea21](https://github.com/advertikon/github-action-relese-info/commit/e27ea21c1b7fbbfb38e454f404894538a6ab2d11))
+
 ## [1.0.7](https://github.com/advertikon/github-action-relese-info/compare/v1.0.6...v1.0.7) (2023-03-04)
 
 
