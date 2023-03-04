@@ -1,13 +1,18 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Latest asset'
+description: 'Fetch latest asset info'
 inputs:
   github-token:
     description: 'Github token'
     required: true
-    default: 'World'
 outputs:
-  time:
-    description: 'The time we greeted you'
+  tag:
+    description: 'Tag of the asses'
+  author:
+    description: 'Login name of commit author'
+  url:
+    description: 'Asset download link'
+  name:
+    description: 'Asset name'
 runs:
   using: 'node16'
   main: 'index.js'

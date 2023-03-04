@@ -19,10 +19,12 @@ try {
     });
 
     if (info.status === 200) {
-        // setOutput('tag', info.tag_name);
-        // setOutput('body', info.body);
-        // setOutput('author', info.author.login);
-        console.log('Info: ', JSON.stringify(info, null, 2));
+        const { data } = info;
+        setOutput('tag', data.tag_name);
+        setOutput('author', data.author.login);
+        setOutput('url', data.assets[0].browser_download_url);
+        setOutput('name', data.assets[0].name);
+        // console.log('Info: ', JSON.stringify(info, null, 2));
 
     } else {
         setFailed('Fetch error');
