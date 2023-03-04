@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/advertikon/github-action-relese-info/compare/v1.0.5...v1.0.6) (2023-03-04)
+
+
+### Bug Fixes
+
+* fix bug ([2b496db](https://github.com/advertikon/github-action-relese-info/commit/2b496dbd8dcf25897aebf88b6eba1f307b0ad899))
+
 ## [1.0.5](https://github.com/advertikon/github-action-relese-info/compare/v1.0.4...v1.0.5) (2023-03-04)
 
 
