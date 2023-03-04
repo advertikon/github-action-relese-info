@@ -3,7 +3,7 @@ import { getOctokit, context } from '@actions/github';
 
 try {
     const token = getInput('github-token');
-    const payload = JSON.stringify(github.context.payload, undefined, 2)
+    const payload = JSON.stringify(context.payload, undefined, 2)
     console.log(`The event payload: ${payload}`);
     const octokit = getOctokit(token)
     const owner = context.payload.repository.owner;
