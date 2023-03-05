@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/advertikon/github-action-relese-info/compare/v1.1.1...v1.1.2) (2023-03-05)
+
+
+### Bug Fixes
+
+* fix action entry point file ([b356450](https://github.com/advertikon/github-action-relese-info/commit/b356450709d56a84a1c11948bbe1b66feec59ef4))
+
 ## [1.1.1](https://github.com/advertikon/github-action-relese-info/compare/v1.1.0...v1.1.1) (2023-03-04)
 
 
