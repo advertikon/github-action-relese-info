@@ -15,4 +15,4 @@ outputs:
     description: 'Asset name'
 runs:
   using: 'node16'
-  main: 'build/index.js'
+  main: 'dist/index.js'
